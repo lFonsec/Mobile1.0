@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.lucas.view" android:versionCode="1"
+    android:versionName="1.0.0">
+    <application android:icon="@drawable/icon" android:theme="@android:style/Theme.Light">
+        <activity android:name="br.lucas.view.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="br.lucas.view.CadastrarEditarAutor"
+            android:label="EditarAutor" />
+        <activity android:name="br.lucas.view.BuscarAutor" android:label="BuscarAutor" />
+    </application>
+    <uses-sdk android:minSdkVersion="2" />
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cadastro de Autores</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="buscar">Buscar</string>
+</resources>
